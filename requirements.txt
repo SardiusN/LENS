@@ -1,0 +1,6 @@
+streamlit
+groq
+python-dotenv
+faster-whisper
+pyttsx3
+av==18.1.0

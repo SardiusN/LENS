@@ -1,0 +1,121 @@
+
+/* ==========================================
+   LENS — APPLICATION DESIGN
+   ========================================== */
+
+.stApp {
+    background: #0b1020;
+    color: #e5e7eb;
+}
+
+/* Main content area */
+
+.block-container {
+    max-width: 1050px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"] {
+    background: #111827;
+    border-right: 1px solid #263247;
+}
+
+section[data-testid="stSidebar"] h1 {
+    color: #8bafff;
+    letter-spacing: 2px;
+}
+
+/* Hero section */
+
+.hero {
+    text-align: center;
+    padding: 65px 20px 45px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #263247;
+}
+
+.hero-label {
+    color: #8bafff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 18px;
+}
+
+.hero h1 {
+    color: #f8fafc;
+    font-size: clamp(30px, 5vw, 48px);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: #9ca3af;
+    font-size: 16px;
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+/* Chat messages */
+
+div[data-testid="stChatMessage"] {
+    background: #141d30;
+    border: 1px solid #263247;
+    border-radius: 14px;
+    padding: 18px;
+    margin-bottom: 15px;
+}
+
+/* Input fields */
+
+div[data-testid="stChatInput"] {
+    border-radius: 12px;
+}
+
+/* Buttons */
+
+.stButton > button {
+    background: #263e70;
+    color: #ffffff;
+    border: 1px solid #4265a5;
+    border-radius: 9px;
+    padding: 9px 16px;
+    transition: 0.2s ease;
+}
+
+.stButton > button:hover {
+    background: #34558f;
+    border-color: #8bafff;
+    color: #ffffff;
+}
+
+/* Headings */
+
+h2, h3, h4 {
+    color: #dbeafe;
+}
+
+/* Dividers */
+
+hr {
+    border-color: #263247;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    color: #8bafff;
+    font-size: 13px;
+    padding: 20px 0;
+    line-height: 2;
+}
+
+.footer span {
+    color: #6b7280;
+    font-size: 12px;
+}
