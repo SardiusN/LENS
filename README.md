@@ -21,6 +21,7 @@ The main idea behind LENS is to help users think through questions rather than s
 - Faster-Whisper
 - pyttsx3
 - python-dotenv
+- AI Model: OpenAI GPT-OSS 120B (accessed through the Groq API)
 
 ## Project Structure
 
